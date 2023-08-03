@@ -3,12 +3,6 @@
     transition: all .5s;
 }
 
-.btn_sec:hover {
-    transform: scale(1.1);
-    background-color: black;
-    color: white;
-    transition: all .5s;
-}
 
 .boxes:hover {
     transform: scale(1.1);
