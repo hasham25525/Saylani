@@ -7,39 +7,60 @@
     <link rel="stylesheet" href="global.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="/dist/output.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- header -->
-    <header class="text-gray-600 body-font">
+    <div class="container  flex flex-wrap px-5 pt-4 md:flex-row  ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary w-full ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#"><img
+                        src="https://www.saylaniwelfare.com/static/media/logo_saylaniwelfare.22bf709605809177256c.png"
+                        alt="" width="50%"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex justify-between" id="navbarNav" style="padding: 15px;">
+                    <ul class="navbar-nav flex justify-between w-full">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: #0d6db7;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: black;">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: black;">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true" style="color: black;">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true" style="color: black;">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true" style="color: black;">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true" style="color: black;">Bank details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true" style="color: #8dc63f;">Overseas</a>
+                        </li>
+                        <button type="button" class="btn btn-"
+                            style="background-color: #0d6db7!important; color: #fff; margin: 7px;">Donate now</button>
+                        <button type="button" class="btn btn-"
+                            style="background-color: #8dc63f !important; color: #fff; margin: 7px;">Be a
+                            Sponser</button>
 
-        <div class="container  flex flex-wrap px-5 pt-4 md:flex-row ">
-            <a class="flex title-font font-medium items-center text-gray-900 md:mb-0   w-40">
-                <img src="https://www.saylaniwelfareusa.com/static/media/logo_saylaniwelfareusa.22bf709605809177256c.png"
-                    alt="">
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
 
-            </a>
-            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                <a class="mr-5 hover:text-gray-900 hover:cursor-pointer">Home</a>
-                <a class="mr-5 hover:text-gray-900 hover:cursor-pointer">About</a>
-                <a class="mr-5 hover:text-gray-900 hover:cursor-pointer">Services</a>
-                <a class="mr-5 hover:text-gray-900 hover:cursor-pointer">Media</a>
-                <a class="mr-5 hover:text-gray-900 hover:cursor-pointer">Contact Us</a>
-                <a class="mr-5 hover:text-gray-900 hover:cursor-pointer">Bank Details</a>
-                <a class="mr-5 text-lime-500 hover:text-lime-500 animate-pulse hover:cursor-pointer">Overseas Donors</a>
-
-            </nav>
-            <button
-                class="btns inline-flex items-center bg-blue-400 text-white border-0 py-1 px-3 focus:outline-none  rounded text-base md:mt-0">Button
-            </button>
-            <button
-                class="btns inline-flex items-center bg-lime-500 text-white border-0 py-1 px-3 focus:outline-none  rounded text-base md:mt-0 ml-3">Button
-            </button>
-        </div>
-    </header>
 
     <main class="container mx-auto flex flex-wrap p-5 flex-col-md-4 md:flex-row items-center">
 
@@ -257,7 +278,7 @@
                 <div class="services_counter">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4 d-flex justify-content-center">
+                            <div class="col-md-3 d-flex justify-content-center">
                                 <div class="counter_single">
                                     <div style="transform: none;">
                                         <div class="counter_image"><img
@@ -271,7 +292,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 d-flex justify-content-center">
+                            <div class="col-md-3 d-flex justify-content-center">
                                 <div class="counter_single">
                                     <div style="transform: none;">
                                         <div class="counter_image"><img
@@ -286,7 +307,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 d-flex justify-content-center">
+                            <div class="col-md-3 d-flex justify-content-center">
                                 <div class="counter_single">
                                     <div style="transform: none;">
                                         <div class="counter_image"><img
@@ -300,7 +321,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 d-flex justify-content-center">
+                            <div class="col-md-3 d-flex justify-content-center">
                                 <div class="counter_single">
                                     <div style="transform: none;">
                                         <div class="counter_image"><img
@@ -480,6 +501,28 @@
 
             </div>
         </section>
+
+        <!-- email us -->
+        <div class="undefined saylani_guide saylani_guide_blue ltr">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="guide_heading">
+                        <h2 class="font-bold text-3xl mb-2">Saylani Guide</h2>
+                    </div>
+                    <div class="guide_content">
+                        <div class="guide_input">
+                            <div class="theme_input input_color_blue "><input min="0" type="text"
+                                    placeholder="Enter E-Mail Address"
+                                    class="ant-input theme_input_ltr w-full py-3 px-3 bg-transparent border" value="">
+                            </div>
+                        </div>
+                        <div class="guide_btn_container"><button
+                                class="guide_btn guide_btn_ltr theme_btn btn btn-primary"><span
+                                    class="ant-typography text_english normal_text">SUBSCRIBE</span> </button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
 

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .btns:hover {
     transform: scale(1.1);
     transition: all .5s;
@@ -359,4 +363,46 @@ input {
 
 .ltr {
     direction: ltr !important;
+}
+
+.saylani_guide {
+    width: 100vw;
+    background-color: #0d6db7;
+    background-image: url(/img/guid.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center
+}
+
+.guide_heading h2 {
+    color: #fff!important
+}
+
+.guide_input {
+    flex: 0.9 1
+}
+
+.guide_btn {
+    background-color: #fff!important;
+    color: #666!important;
+    font-size: 14px!important;
+    font-weight: 700!important;
+    margin-top: 5px;
+    padding: 15px 30px!important;
+    width: 100%!important
+}
+
+.input_color_blue input,.input_color_green input {
+    border-color: #fff!important;
+    color: #fff!important
+}
+
+@media (max-width: 768px) {
+    .guide_input {
+        margin-bottom:20px!important
+    }
 }
