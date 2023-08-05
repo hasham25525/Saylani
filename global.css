@@ -8,6 +8,11 @@ nav a:hover {
     text-decoration-thickness: 3px;
 }
 
+.carousel {
+    width:1287px;
+    height:438px;
+  }
+
 .btns:hover {
     transform: scale(1.1);
     transition: all .5s;
@@ -338,6 +343,11 @@ input {
 
 
 @media (max-width: 850px) {
+    .carousel {
+        width: auto;
+        height: auto;
+      }
+
     .right_div {
         display: none;
     }
