@@ -344,6 +344,7 @@ input {
     margin-top: 20px
 }
 
+
 .z_index_1 {
     z-index: 1 !important
 }
@@ -385,6 +386,9 @@ input {
 
     #check:checked~.links {
         left: 0;
+    }
+    .footer li{
+     text-align: center;
     }
 }
 
