@@ -2,11 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 nav a:hover {
     text-decoration: underline;
     text-decoration-color: #8dc63f;
     text-decoration-thickness: 3px;
 }
+
+.drop_links:hover{
+    background: #8dc63f !important;
+    color: white !important;
+    text-decoration: none;
+}
+
 
 .carousel {
     width:1287px;
