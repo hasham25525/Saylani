@@ -185,6 +185,73 @@ input {
     }
 
 }
+.home_funding {
+    margin-top: 30px
+}
+
+.funding_box {
+    -webkit-animation-duration: 1.5s!important;
+    animation-duration: 1.5s!important;
+    -webkit-animation-iteration-count: 1!important;
+    animation-iteration-count: 1!important;
+    cursor: pointer;
+    height: 300px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%
+}
+
+.funding_box img {
+    border-radius: 10px;
+    height: 300px;
+    object-fit: cover;
+    width: 100%
+}
+
+.funding_box .fund_box {
+    background-color: rgba(0,0,0,.6);
+    border-radius: 10px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    padding: 10px;
+    position: absolute;
+    width: 100%
+}
+
+.funding_box .fund_box:hover {
+    opacity: .8
+}
+
+.funding_box .fund_box h5 {
+    color: #fff
+}
+
+.funding_box .fund_box button {
+    background-color: #8dc63f;
+    border: none;
+    font-size: 14px!important;
+    outline: none;
+    padding: 10px 30px;
+    width: 100%
+}
+
+.funding_box .fund_box button:focus,.funding_box .fund_box button:hover {
+    background-color: #8dc63f
+}
+
+.funding_box .fund_box .fund_detail {
+    display: flex;
+    justify-content: space-between;
+    width: 100%!important
+}
+
+.funding_box .fund_box .fund_detail span {
+    color: #fff
+}
+
 
 .services_counter {
     background-color: #0d6db7;
